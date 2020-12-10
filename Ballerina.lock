@@ -1,0 +1,14 @@
+org_name = "admin"
+version = "0.1.0"
+lockfile_version = "1.0.0"
+ballerina_version = "1.2.8"
+
+[[imports."admin/registry_admin_api:0.1.0"]]
+org_name = "admin"
+name = "update_tool_model"
+version = "0.1.0"
+
+[[imports."admin/registry_admin_api:0.1.0"]]
+org_name = "ballerinax"
+name = "java.jdbc"
+version = "0.0.0"

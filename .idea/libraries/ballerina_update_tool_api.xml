@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ballerina_update_tool_api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bin/ballerina_update_tool_api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

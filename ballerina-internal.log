@@ -1,0 +1,240 @@
+[2020-07-06 09:36:38,498] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at org.wso2.ballerinalang.compiler.semantics.analyzer.SymbolEnter.defineConstructs(SymbolEnter.java:275)
+	at org.wso2.ballerinalang.compiler.semantics.analyzer.SymbolEnter.visit(SymbolEnter.java:242)
+	at org.wso2.ballerinalang.compiler.tree.BLangPackage.accept(BLangPackage.java:161)
+	at org.wso2.ballerinalang.compiler.semantics.analyzer.SymbolEnter.defineNode(SymbolEnter.java:204)
+	at org.wso2.ballerinalang.compiler.semantics.analyzer.SymbolEnter.definePackage(SymbolEnter.java:197)
+	at org.wso2.ballerinalang.compiler.PackageLoader.define(PackageLoader.java:481)
+	at org.wso2.ballerinalang.compiler.PackageLoader.loadEntryPackage(PackageLoader.java:399)
+	at org.wso2.ballerinalang.compiler.Compiler.lambda$compilePackages$1(Compiler.java:165)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.wso2.ballerinalang.compiler.Compiler.compilePackages(Compiler.java:167)
+	at org.wso2.ballerinalang.compiler.Compiler.compilePackage(Compiler.java:178)
+	at org.wso2.ballerinalang.compiler.Compiler.compile(Compiler.java:93)
+	at org.wso2.ballerinalang.compiler.Compiler.build(Compiler.java:101)
+	at org.ballerinalang.packerina.task.CompileTask.execute(CompileTask.java:58)
+	at org.ballerinalang.packerina.TaskExecutor.executeTasks(TaskExecutor.java:38)
+	at org.ballerinalang.packerina.cmd.RunCommand.execute(RunCommand.java:286)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.tool.Main.main(Main.java:59)
+ 
+[2020-07-07 19:53:40,830] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at org.wso2.ballerinalang.programfile.PackageFileWriter.writePackage(PackageFileWriter.java:52)
+	at org.ballerinalang.packerina.writer.BirFileWriter.writeBIRToPath(BirFileWriter.java:100)
+	at org.ballerinalang.packerina.task.CreateBirTask.writeImportBir(CreateBirTask.java:93)
+	at org.ballerinalang.packerina.task.CreateBirTask.execute(CreateBirTask.java:64)
+	at org.ballerinalang.packerina.TaskExecutor.executeTasks(TaskExecutor.java:38)
+	at org.ballerinalang.packerina.cmd.RunCommand.execute(RunCommand.java:283)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.ballerinalang.tool.Main.main(Main.java:57)
+ 
+[2020-07-07 19:54:25,673] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 19:54:25,676] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 19:55:30,840] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 19:55:30,842] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 19:56:24,748] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 19:56:24,751] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 20:13:54,942] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 20:13:54,945] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 20:42:20,233] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 20:42:20,236] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 20:51:15,587] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 20:51:15,591] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-07-07 21:14:24,585] SEVERE {b7a.log.crash} - org.ballerinax.jdbc.table.BCursorTable cannot be cast to org.ballerinalang.jvm.values.ErrorValue 
+java.lang.ClassCastException: org.ballerinax.jdbc.table.BCursorTable cannot be cast to org.ballerinalang.jvm.values.ErrorValue
+	at admin.registry_admin_api.admin_api_impl.insertIntoLatests(admin_api_impl.bal:214)
+	at admin.registry_admin_api.admin_api_impl.$anonTrxMainFunc$0(admin_api_impl.bal:83)
+	at admin.registry_admin_api.admin_api_impl.$anonTrxMainFunc$0$lambda$(admin_api_impl.bal)
+	at org.ballerinalang.jvm.values.FPValue.apply(FPValue.java:58)
+	at ballerina.transactions.transaction_block.beginTransactionInitiator(transaction_block.bal:60)
+	at admin.registry_admin_api.admin_api_impl.addDistribution(admin_api_impl.bal:48)
+	at admin.registry_admin_api.$value$admin__service_0.addDistribution(admin_api.bal:46)
+	at admin.registry_admin_api.$value$admin__service_0.call(admin_api.bal)
+	at org.ballerinalang.jvm.values.connector.Executor.lambda$submit$0(Executor.java:71)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:486)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:237)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:207)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+[2020-07-07 21:25:58,081] SEVERE {b7a.log.crash} - org.ballerinax.jdbc.table.BCursorTable cannot be cast to org.ballerinalang.jvm.values.ErrorValue 
+java.lang.ClassCastException: org.ballerinax.jdbc.table.BCursorTable cannot be cast to org.ballerinalang.jvm.values.ErrorValue
+	at admin.registry_admin_api.admin_api_impl.insertIntoLatests(admin_api_impl.bal:217)
+	at admin.registry_admin_api.admin_api_impl.$anonTrxMainFunc$0(admin_api_impl.bal:83)
+	at admin.registry_admin_api.admin_api_impl.$anonTrxMainFunc$0$lambda$(admin_api_impl.bal)
+	at org.ballerinalang.jvm.values.FPValue.apply(FPValue.java:58)
+	at ballerina.transactions.transaction_block.beginTransactionInitiator(transaction_block.bal:60)
+	at admin.registry_admin_api.admin_api_impl.addDistribution(admin_api_impl.bal:48)
+	at admin.registry_admin_api.$value$admin__service_0.addDistribution(admin_api.bal:46)
+	at admin.registry_admin_api.$value$admin__service_0.call(admin_api.bal)
+	at org.ballerinalang.jvm.values.connector.Executor.lambda$submit$0(Executor.java:71)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:486)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:237)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:207)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+[2020-07-08 08:15:57,775] SEVERE {b7a.log.crash} - org.ballerinax.jdbc.table.BCursorTable cannot be cast to org.ballerinalang.jvm.values.ErrorValue 
+java.lang.ClassCastException: org.ballerinax.jdbc.table.BCursorTable cannot be cast to org.ballerinalang.jvm.values.ErrorValue
+	at admin.registry_admin_api.admin_api_impl.insertIntoLatests(admin_api_impl.bal:217)
+	at admin.registry_admin_api.admin_api_impl.$anonTrxMainFunc$0(admin_api_impl.bal:83)
+	at admin.registry_admin_api.admin_api_impl.$anonTrxMainFunc$0$lambda$(admin_api_impl.bal)
+	at org.ballerinalang.jvm.values.FPValue.apply(FPValue.java:58)
+	at ballerina.transactions.transaction_block.beginTransactionInitiator(transaction_block.bal:60)
+	at admin.registry_admin_api.admin_api_impl.addDistribution(admin_api_impl.bal:48)
+	at admin.registry_admin_api.$value$admin__service_0.addDistribution(admin_api.bal:46)
+	at admin.registry_admin_api.$value$admin__service_0.call(admin_api.bal)
+	at org.ballerinalang.jvm.values.connector.Executor.lambda$submit$0(Executor.java:71)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:486)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:237)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:207)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+[2020-12-09 15:51:20,051] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
+[2020-12-09 15:51:20,074] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at admin.registry_admin_api.___init.admin_registry_admin_api_0_1_0__stop_(registry_admin_api:35)
+	at admin.registry_admin_api.___init.$lambda$admin_registry_admin_api_0_1_0__stop_(registry_admin_api)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:218)
+	at admin.registry_admin_api.___init.$moduleStop(registry_admin_api)
+	at admin.registry_admin_api.___init$SignalListener.run(Unknown Source)
+ 
